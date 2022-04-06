@@ -1,11 +1,23 @@
+/*Finding the elements whose sum will be equal to a given number.
+Eg: a[1]+a[3] = 16;
+    a[3]+a[5] = 16; */
+
 #include<iostream>
 
 using namespace std;
 
 int main()
 {
-    int a[10] = {1,3,4,5,6,8,9,10,12,14};
-    int n = 10, sum = 16;
+    int n, sum;
+    cout<<"Enter the size of the array: ";
+    cin>>n;
+    int a[n];
+    cout<<"Enter the array: ";
+    for(int i=0;i<n;i++)
+        cin>>a[i];
+    cout<<"Enter the value of sum: ";
+    cin>>sum;
+    cout<<"The elements which provides the required sum are: "<<endl;
     for(int i=0;i<n;i++)
     {
         for(int j=i+1;j<n;j++)
