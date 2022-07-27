@@ -1,3 +1,6 @@
+//Write a program to perform all array operations like accepting values, Printing values, Appending values, 
+//Inserting values, etc..
+
 #include <stdio.h>
 #include <stdlib.h>
 struct Array
