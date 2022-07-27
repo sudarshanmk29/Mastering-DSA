@@ -1,3 +1,5 @@
+// Question: Determine whether the given number is an Armstrong number or not
+
 #include <iostream>
 #include <math.h>
 using namespace std;
